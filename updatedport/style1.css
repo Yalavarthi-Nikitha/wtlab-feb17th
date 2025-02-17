@@ -1,0 +1,85 @@
+/* style.css */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #e8f5e9; /* Light mint green */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #283593; /* Dark indigo */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Distinct color scheme for each section */
+  #introduction {
+    background-color: #ffe082; /* Light amber */
+    color: #333;
+  }
+  
+  #skills {
+    background-color: #f48fb1; /* Light pink */
+    color: #000;
+  }
+  
+  #projects {
+    background-color: #81d4fa; /* Light blue */
+    color: #003366;
+  }
+  
+  #feedback {
+    background-color: #a5d6a7; /* Light green */
+    color: #1b5e20;
+  }
+  
+  #education {
+    background-color: #d1c4e9; /* Light purple */
+    color: #4a148c;
+  }
+  
+  #contact {
+    background-color: #ffccbc; /* Light coral */
+    color: #bf360c;
+  }
+  
+  h2 {
+    color: #1a237e; /* Deep blue */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  
+  a {
+    color: #283593; /* Indigo */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1565c0; /* Bright blue */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
