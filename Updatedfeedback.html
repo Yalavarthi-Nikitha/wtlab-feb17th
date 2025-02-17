@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <header>
+    <h1>Feedback Form</h1>
+  </header>
+
+  <section>
+    <h2>We Value Your Feedback</h2>
+    <p>Please provide your feedback about our services or products. Your responses will help us improve.</p>
+    <form action="#" method="post">
+      
+      <!-- Name (optional) -->
+      <label for="name">Name (Optional):</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+
+      <!-- Email (optional) -->
+      <label for="email">Email (Optional):</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <!-- Phone (optional) -->
+      <label for="phone">Phone (Optional):</label>
+      <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+
+      <!-- Rating (required) -->
+      <label for="rating">Rating:</label>
+      <select id="rating" name="rating" required>
+        <option value="">Select a rating</option>
+        <option value="5">Excellent (5)</option>
+        <option value="4">Good (4)</option>
+        <option value="3">Average (3)</option>
+        <option value="2">Below Average (2)</option>
+        <option value="1">Poor (1)</option>
+      </select>
+
+      <!-- Questions -->
+      <label for="questions">Any Questions Regarding Product or Service:</label>
+      <textarea id="questions" name="questions" rows="4" placeholder="Write your questions here..." required></textarea>
+
+      <!-- Additional Comments (optional) -->
+      <label for="comments">Additional Comments (Optional):</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Any additional feedback or suggestions?"></textarea>
+
+      <!-- Submit button -->
+      <input type="submit" value="Submit Feedback">
+
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nikitha Yalavarthi</p>
+  </footer>
+
+</body>
+</html>
